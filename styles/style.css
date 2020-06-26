@@ -1,0 +1,86 @@
+body {
+   
+}
+
+header {
+    background: #072900;
+    font-family: 'Merienda', cursive;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+h1 img {
+    margin: 20px 40px;
+}
+
+nav {
+    position: absolute;
+    top: 190px;
+    right: 2em;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.3em;
+    color: white;    
+}
+
+nav a:hover {
+    color: limegreen;
+    text-decoration: underline;
+}
+
+.caixa-banner {
+    width: 100%;
+}
+ 
+
+.banner {
+    margin: 0.5em auto;
+    width: 100%;
+    
+}
+
+.sobre {
+    width: 940px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1em;
+    margin: 2em auto;
+    text-align: justify;
+
+}
+
+.titulo-sessao {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 1em;;
+}
+
+.sobre p {
+    margin: 1em;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    padding: 80px 0;
+    
+    
+}
+
+footer p{
+    color: white;
+    margin: 0.5em;
+    font-size: 1em;
+}
