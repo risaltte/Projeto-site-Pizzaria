@@ -2,6 +2,17 @@ body {
    
 }
 
+body strong {
+    font-weight: bold;
+}
+
+body em {
+    font-style: italic;
+    color: darkgreen;
+}
+
+/* Cabeçalho */
+
 header {
     background: #072900;
     font-family: 'Merienda', cursive;
@@ -40,6 +51,8 @@ nav a:hover {
     text-decoration: underline;
 }
 
+
+/* Banner */
 .caixa-banner {
     width: 100%;
 }
@@ -51,32 +64,42 @@ nav a:hover {
     
 }
 
-.sobre {
+
+/* Sessões */
+.sobre, .localizacao {
     width: 940px;
     font-family: 'Source Serif Pro', serif;
     font-size: 1em;
-    margin: 2em auto;
+    margin: 6em auto;
+    padding: 2em auto;
     text-align: justify;
-
+    line-height: 1.4em;
 }
 
 .titulo-sessao {
     text-align: center;
     font-weight: bold;
     font-size: 2em;
-    margin: 1em;;
+    margin: 1em;
+    color: rgb(161, 5, 5);
 }
 
-.sobre p {
+.sobre p, .localizacao p {
     margin: 1em;
 }
 
+
+/* Sessão localização */
+.localizacao-mapa {
+    margin: 1em auto;
+}
+
+
+/* Rodapé */
 footer {
     text-align: center;
     background: black;
-    padding: 80px 0;
-    
-    
+    padding: 80px 0; 
 }
 
 footer p{
